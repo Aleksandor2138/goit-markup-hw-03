@@ -1,0 +1,183 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #000000;
+}
+:root {
+  --section-color: #2f303a;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.header {
+  background-color: #ffffff;
+  --color-text-header: #212121;
+  --color-text-contact: #757575;
+}
+.header-nav-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.header-nav-logo-head {
+  color: #000000;
+}
+.header-nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-nav-list :hover,
+.header-nav-list :focus {
+  color: #2196f3;
+}
+.header-nav-list-st,
+.header-nav-list-port,
+.header-nav-list-cont {
+  color: var(--color-text-header);
+}
+
+.header-contaсt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-contaсt :hover,
+.header-contaсt :focus {
+  color: #2196f3;
+}
+.header-contaсt-mail,
+.header-contaсt-tel {
+  color: var(--color-text-contact);
+}
+.menu-list-all :hover,
+.menu-list-website :hover,
+.menu-list-design :hover,
+.menu-list-app :hover,
+.menu-list-marketing :hover,
+.menu-list-all :focus,
+.menu-list-website :focus,
+.menu-list-design :focus,
+.menu-list-app :focus,
+.menu-list-marketing :focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+.menu-list {
+  --text-color: #212121;
+}
+.menu-list-all-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  cursor: pointer;
+}
+.menu-list-website-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  cursor: pointer;
+}
+.menu-list-app-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  cursor: pointer;
+}
+.menu-list-design-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.menu-list-marketing-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  cursor: pointer;
+}
+.portfolio-list-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-list-paragraph {
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer {
+  background: var(--section-color);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.footer-logo-head {
+  color: #ffffff;
+}
+.footer-contakts-list :hover,
+.footer-contakts-list :focus {
+  color: #2196f3;
+}
+.footer-contakts-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-contakts-mail {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contakts-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
