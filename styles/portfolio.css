@@ -46,7 +46,11 @@ button {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-.header-nav-logo {
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -55,8 +59,11 @@ button {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-.header-nav-logo-head {
+.header-logo-head {
   color: #000000;
+}
+.header-nav {
+  margin-left: 93px;
 }
 .header-nav-list {
   font-weight: 500;
@@ -64,15 +71,22 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  display: flex;
 }
 .header-nav-list :hover,
 .header-nav-list :focus {
   color: #2196f3;
 }
-.header-nav-list-st,
-.header-nav-list-port,
+.header-nav-list-st {
+  color: var(--color-text-header);
+}
+.header-nav-list-port {
+  color: var(--color-text-header);
+  margin-left: 50px;
+}
 .header-nav-list-cont {
   color: var(--color-text-header);
+  margin-left: 50px;
 }
 
 .header-contaсt {
@@ -81,14 +95,19 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  margin-left: 330px;
+  display: flex;
 }
 .header-contaсt :hover,
 .header-contaсt :focus {
   color: #2196f3;
 }
-.header-contaсt-mail,
+.header-contaсt-mail {
+  color: var(--color-text-contact);
+}
 .header-contaсt-tel {
   color: var(--color-text-contact);
+  margin-left: 50px;
 }
 .portfolio-menu {
   padding-top: 94px;
@@ -109,6 +128,8 @@ button {
 }
 .menu-list {
   --text-color: #212121;
+  display: flex;
+  justify-content: center;
 }
 .menu-list-all-button {
   font-family: "Roboto";
@@ -160,6 +181,11 @@ button {
   letter-spacing: 0.03em;
   color: var(--text-color);
   cursor: pointer;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .portfolio-list-header {
   font-weight: 700;
