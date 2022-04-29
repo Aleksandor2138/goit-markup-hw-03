@@ -45,6 +45,7 @@ button {
   --color-text-contact: #757575;
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 .header .container {
   display: flex;
@@ -77,16 +78,17 @@ button {
 .header-nav-list :focus {
   color: #2196f3;
 }
+.header-nav-list :not(:last-child) {
+  margin-right: 50px;
+}
 .header-nav-list-st {
   color: var(--color-text-header);
 }
 .header-nav-list-port {
   color: var(--color-text-header);
-  margin-left: 50px;
 }
 .header-nav-list-cont {
   color: var(--color-text-header);
-  margin-left: 50px;
 }
 
 .header-contaсt {
@@ -96,7 +98,7 @@ button {
   letter-spacing: 0.02em;
   color: #757575;
   display: flex;
-  margin-left: 330px;
+  margin-left: auto;
 }
 .header-contaсt :hover,
 .header-contaсt :focus {
@@ -130,6 +132,7 @@ button {
   font-size: 16px;
   line-height: 1.88;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -138,6 +141,7 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  margin: auto;
 }
 .soft-skils-about {
   background: #ffffff;
