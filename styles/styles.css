@@ -6,6 +6,33 @@ body {
 :root {
   --section-color: #2f303a;
 }
+img {
+  display: block;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  padding-left: 0;
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
 .link {
   text-decoration: none;
 }
@@ -16,6 +43,8 @@ body {
   background-color: #ffffff;
   --color-text-header: #212121;
   --color-text-contact: #757575;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-nav-logo {
   font-family: "Raleway";
@@ -63,6 +92,8 @@ body {
 }
 .main-section-header {
   background-color: var(--section-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .main-section-header-motto {
   font-weight: 900;
@@ -89,8 +120,10 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-.soft-skils {
+.soft-skil {
   background: #ffffff;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .soft-skils-header {
   font-weight: 700;
@@ -116,6 +149,8 @@ body {
 }
 .team {
   background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .our-team {
   font-weight: 700;
@@ -181,6 +216,8 @@ body {
 }
 .footer {
   background: var(--section-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   font-family: "Raleway";

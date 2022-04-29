@@ -6,6 +6,33 @@ body {
 :root {
   --section-color: #2f303a;
 }
+img {
+  display: block;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  padding-left: 0;
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
 .link {
   text-decoration: none;
 }
@@ -16,6 +43,8 @@ body {
   background-color: #ffffff;
   --color-text-header: #212121;
   --color-text-contact: #757575;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-nav-logo {
   font-family: "Raleway";
@@ -60,6 +89,10 @@ body {
 .header-contaсt-mail,
 .header-contaсt-tel {
   color: var(--color-text-contact);
+}
+.portfolio-menu {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .menu-list-all :hover,
 .menu-list-website :hover,
@@ -155,6 +188,8 @@ body {
 }
 .footer-logo-head {
   color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-contakts-list :hover,
 .footer-contakts-list :focus {
