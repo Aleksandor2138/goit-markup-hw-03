@@ -8,6 +8,8 @@ body {
 }
 img {
   display: block;
+  width: 370px;
+  height: 294px;
 }
 p,
 h1,
