@@ -31,7 +31,7 @@ button {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
+  /*outline: 2px solid tomato;*/
 }
 .link {
   text-decoration: none;
@@ -151,6 +151,9 @@ button {
 .soft-skils {
   display: flex;
 }
+.soft-skils-list:not(:last-child) {
+  margin-right: 30px;
+}
 .soft-skils-header {
   font-weight: 700;
   font-size: 14px;
@@ -172,10 +175,14 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 .hard-skils-photo {
   display: flex;
   justify-content: space-between;
+}
+.hard-skils-list:not(:last-child) {
+  margin-right: 30px;
 }
 .team {
   background: #f5f4fa;
@@ -189,10 +196,13 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 .our-team-list {
   display: flex;
-  justify-content: space-between;
+}
+.our-team-item:not(:last-child) {
+  margin-right: 30px;
 }
 .our-team-header {
   font-weight: 500;
@@ -209,7 +219,7 @@ button {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.our-team-product-desinger {
+.desinger {
   width: 270px;
   height: 368px;
   left: 215px;
@@ -218,7 +228,7 @@ button {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.our-team-frontend {
+.frontend {
   width: 270px;
   height: 368px;
   left: 515px;
@@ -228,7 +238,7 @@ button {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.our-team-marketing {
+.marketing {
   width: 270px;
   height: 368px;
   left: 815px;
@@ -238,7 +248,7 @@ button {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.our-team-uidesigner {
+.uidesigner {
   width: 270px;
   height: 368px;
   left: 1115px;
@@ -264,10 +274,20 @@ button {
 }
 .footer-logo-head {
   color: #ffffff;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .footer-contakts-list :hover,
 .footer-contakts-list :focus {
   color: #2196f3;
+}
+.footer-contakts-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-contakts-list:not(:last-child) {
+  margin-right: 10px;
 }
 .footer-contakts-address {
   font-style: normal;
