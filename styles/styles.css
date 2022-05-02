@@ -124,8 +124,11 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 .main-section-header-button {
+  width: 200px;
+  height: 50px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -154,6 +157,9 @@ button {
 .soft-skils-list:not(:last-child) {
   margin-right: 30px;
 }
+.soft-skils-list {
+  width: 270px;
+}
 .soft-skils-header {
   font-weight: 700;
   font-size: 14px;
@@ -161,12 +167,16 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 .soft-skils-paragraph {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.hard-skil {
+  padding-bottom: 94px;
 }
 .hard-skils {
   font-weight: 700;
@@ -211,6 +221,7 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 .our-team-paragraph {
   font-size: 16px;
@@ -219,20 +230,18 @@ button {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.our-team-signature {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .desinger {
   width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 1635px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .frontend {
   width: 270px;
-  height: 368px;
-  left: 515px;
-  top: 1635px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -240,9 +249,6 @@ button {
 }
 .marketing {
   width: 270px;
-  height: 368px;
-  left: 815px;
-  top: 1635px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -250,9 +256,6 @@ button {
 }
 .uidesigner {
   width: 270px;
-  height: 368px;
-  left: 1115px;
-  top: 1635px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -286,8 +289,8 @@ button {
   display: flex;
   flex-direction: column;
 }
-.footer-contakts-list:not(:last-child) {
-  margin-right: 10px;
+.footer-contakts-list-title:not(:last-child) {
+  margin-bottom: 10px;
 }
 .footer-contakts-address {
   font-style: normal;

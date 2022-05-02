@@ -135,8 +135,8 @@ button {
   display: flex;
   justify-content: center;
 }
-.menu-list:not(:last-child) {
-  margin-right: 8px;
+.menu-list-title:not(:last-child) {
+  margin-right: 12px;
 }
 .menu-list-all-button {
   font-family: "Roboto";
@@ -194,13 +194,17 @@ button {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-bottom: -30px;
-  padding-top: 35px;
+  margin-top: 50px;
 }
 .portfolio-item {
   flex-basis: calc(100% / 3-30px);
   margin-left: 30px;
   margin-bottom: 30px;
-  border: 1px #eeeeee;
+}
+.portfolio-list-description {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 .portfolio-list-header {
   font-weight: 700;
@@ -208,16 +212,13 @@ button {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  margin-left: 24px;
-  margin-top: 20px;
+  margin-bottom: 5px;
 }
 .portfolio-list-paragraph {
   font-size: 16px;
   line-height: 1.86;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-left: 24px;
-  padding-top: 5px;
 }
 .footer {
   background: var(--section-color);
@@ -245,8 +246,8 @@ button {
   display: flex;
   flex-direction: column;
 }
-.footer-contakts-list:not(:last-child) {
-  margin-right: 10px;
+.footer-contakts-list-title:not(:last-child) {
+  margin-bottom: 10px;
 }
 .footer-contakts-address {
   font-style: normal;
